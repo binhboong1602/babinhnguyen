@@ -1,0 +1,78 @@
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.wp-inner {
+    width: 1170px;
+    margin: 0 auto;
+}
+/*CÃ³ thá»ƒ chá»‰nh 1170 hoáº·c 960px*/
+
+.thumb {
+    width: 350px;
+    height: 236px;
+    overflow: hidden;
+}
+
+    .thumb img {
+        max-height: 100px;
+        height: auto;
+    }
+
+a {
+    text-decoration: none;
+}
+
+
+
+#search-box {
+    padding: 20px 0;
+    color: #bfbfbf;
+    position: relative;
+}
+
+#search-box input {
+       width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 300;
+    outline: none;
+    padding-left: 15px;
+}
+
+#search-box button{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

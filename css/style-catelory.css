@@ -1,0 +1,396 @@
+﻿body {
+    background: #ffffff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+/*Style header*/
+#header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#logo {
+    margin-right: 47px;
+    display: block;
+    padding: 15px 0;
+}
+
+ul#main-menu li {
+    float: left;
+}
+
+    ul#main-menu li a {
+        padding: 0px 20px;
+        text-transform: uppercase;
+        color: #000000;
+        display: block;
+        font-size: 16px;
+        line-height: 60px;
+        font-weight: 500;
+    }
+
+#main-menu li:hover a {
+    color: #ffffff;
+    background: #01a050;
+    transition: 0.25s;
+}
+
+
+/*Style link*/
+#link {
+    background: #f3f3f3;
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+    #link i {
+        position: relative;
+    }
+
+        #link i:before {
+            position: absolute;
+            top: -5px;
+            right: 77px;
+        }
+
+    #link a {
+        padding: 9px 0;
+        font-size: 11px;
+        margin-right: 30px;
+        color: #000000;
+    }
+
+/*Stype wp-content*/
+#content {
+    width: 830px;
+    border-right: 1px solid #e1e1e1;
+}
+
+#sidebar {
+    width: 307px;
+    margin-left: 30px;
+}
+
+#wp-content {
+    margin-bottom: 75px;
+}
+
+/*Style content*/
+
+
+.post-cover{
+    height: 512px;
+    border-bottom: 1px solid #01a050;
+    margin-right: 33px;
+}
+
+#post-thumbnail {
+    margin-bottom: 30px;
+}
+
+.poster .post-title, .poster .post-desc{
+    width: 361px;
+    display: block;
+    color: #000000;
+}
+
+.poster .post-title{
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #0000000;
+    margin-bottom: 20px;
+}
+.poster a.post-title:hover{
+    color: #01a050;
+}
+
+.poster .post-desc{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 27px;
+    color: #919191;
+}
+
+.post-list li{
+    width: 405px;
+    margin-bottom: 20px;
+}
+
+.post-list ul li a.post-desc{
+    width: 268px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.post-list ul.list-right li{
+    width: 368px;
+}
+.post-list ul.list-right a.post-desc{
+    width: 225px;
+}
+
+.post-list a.post-desc:hover{
+    color: #01a050;
+}
+
+
+.list-post-cover{
+    width: 795px;
+    margin-right: 33px;
+}
+
+.list-post-cover .widget{
+    width: 529px;
+}
+
+ul.list-content{
+    margin-top: 40px;
+}
+
+ul.list-content li {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.list-post-cover .widget-head a {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    display: block;
+    color: #000000;
+}
+    
+.list-post-cover .widget-head a:hover {
+    color: #01a050;
+}
+
+    ul.list-content li p {
+        width: 520px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #868686;
+    }
+
+    ul.list-content li i {
+        color: #b5b5b5;
+        display: block;
+        position: relative;
+        margin: 6px 0 5px 19px;
+    }
+
+        ul.list-content li i:before {
+            position: absolute;
+            left: -20px;
+            color: #d2d2d2;
+            font: normal normal normal 14px/1 FontAwesome;
+        }
+
+
+.wp-page .page {
+    margin: 55px 283px 100px 253px;
+}
+
+    .wp-page .page span {
+        margin-right: 7px;
+        padding: 8px 0;
+    }
+
+    .wp-page .page div {
+        width: 35px;
+        height: 35px;
+        background: #ffffff;
+        margin: 0 7px;
+        border: 1px solid #dedede;
+        position: relative;
+    }
+
+        .wp-page .page div:hover {
+            background: #01a050;
+            transition: 0.25s;
+        }
+
+        .wp-page .page div a {
+            padding: 8px 12px;
+            display: block;
+            color: #000000;
+        }
+
+        .wp-page .page div:hover a {
+            display: block;
+            color: #ffffff;
+            transition: 0.25s;
+        }
+
+    .wp-page .page a i:before {
+        position: relative;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+/*Style sidebar*/
+ .ads {
+    margin-bottom: 50px;
+    display: block;
+ }
+
+.widget-topview{
+    margin-bottom: 50px;
+}
+
+div.widget-topview div.widget-title {
+    width: 307px;
+    height: 42px;
+    border-bottom: 1px solid #01a050;
+    margin: 0 0 20px 0;
+}
+
+  div.widget-topview div.widget-title a {
+        text-transform: uppercase;
+        font-size: 21px;
+        font-weight: 500;
+        color: #000000;      
+    }
+    
+   div.widget-content ul li{
+        margin-bottom: 20px;
+    }
+
+    ul.list-post a.post-title {
+        width: 161px;
+        color: #000000;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+
+    }
+    ul.list-post a.post-title:hover {
+        text-decoration: underline;
+    }
+
+/*Style-footer*/
+#footer {
+    background: #01a050;
+}
+
+    .widget-footer-cover {
+        padding-top: 45px;
+    }
+
+        #footer div.widget-head a {
+            font-size: 21px;
+            margin-bottom: 40px;
+            color: #ffffff;
+            display: block;
+        }
+
+.widget-about {
+    width: 278px;
+    margin-right: 30px;
+}
+
+div.widget-about p {
+    margin-bottom: 20px;
+}
+
+div.widget-about span {
+    display: block;
+}
+
+.widget-about p, .widget-about span, .widget-catelory ul li a, .widget-feature-news ul li a {
+    color: #ddeee3;
+}
+
+.widget-about .widget-head a, .widget-catelory .widget-head a, .widget-feature-news .widget-head a, .widget-fanpage .widget-head a {
+    text-transform: uppercase;
+}
+
+
+
+.widget-catelory {
+    width: 195px;
+    margin-right: 52px;
+}
+
+    .widget-catelory ul li {
+        margin-bottom: 20px;
+    }
+
+.widget-feature-news {
+    margin-right: 30px;
+    width: 309px;
+}
+
+.widget-fanpage {
+    width: 227px;
+    margin-bottom:45px;
+}
+
+div.widget-about span {
+    position: relative;
+    margin-left: 30px;
+}
+
+    div.widget-about span:before {
+        position: absolute;
+        left: -31px;
+    }
+
+    div.widget-about span.tel-number:before {
+        position: absolute;
+        left: -31px;
+    }
+
+div.widget-catelory ul li {
+    position: relative;
+    margin-left: 25px;
+}
+
+    div.widget-catelory ul li:before {
+        content: "\f105";
+        position: absolute;
+        left: -25px;
+        color: #ffffff;
+        font: normal normal normal 14px/1 FontAwesome;
+    }
+
+div.widget-feature-news ul li {
+    position: relative;
+    margin: 0 20px 20px 0;
+    padding-left: 20px;
+}
+
+
+
+    div.widget-feature-news ul li a:before {
+        position: relative;
+        content: "\f105";
+        position: absolute;
+        left: 0px;
+        font: normal normal normal 14px/1 FontAwesome;
+        top: 3px;
+    }
+
+#footer li:hover a {
+    text-decoration: underline;
+    transition: 0.25s;
+}
+/*Style copyright*/
+#copyright {
+    background: #ffffff;
+    height: 45px;
+}
+
+    #copyright p {
+        padding-top: 15px;
+        font-size: 14px;
+        font-family: Myriad Pro;
+    }
