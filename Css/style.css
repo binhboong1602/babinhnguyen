@@ -180,30 +180,7 @@ a.nut2.btn.btn-info {
 }
 
 
-.btn_nut a {
-    width: 25%;
-    position: absolute;
-    top: 60%;
-    left: 15%;
-    height: 10%;
-    padding: 15px;
-    font-size: 30px;
-    border-radius: 21px;
-    transition: 0.4s;
-     animation: chulen 2s forwards;
-    animation-delay: 0.5s;
-    opacity: 0;
-}
-@-webkit-keyframes chulen {
-    0% {
-        transform: translateY(800px);
-        opacity: 0;
-    }
-    100% {
-       transform: translateY(0px);
-        opacity: 1;
-    }
-}
+
 
 a.nutbam.btn-danger {
     text-decoration: none;
@@ -276,11 +253,11 @@ img.bg_img {
     width: 25%;
     right: 10%;
     transition: 0.4s;
-    animation: cogai 2s forwards;
-    animation-delay: 0.5s;
-    opacity: 0;
+    /*animation: cogai 2s forwards;*/
+    /*animation-delay: 0.5s;*/
+    /*opacity: 0;*/
 }
-@-webkit-keyframes cogai {
+/*@-webkit-keyframes cogai {
     0% {
         transform: translateX(800px);
     }
@@ -288,7 +265,7 @@ img.bg_img {
         transform: translateY(0px);
         opacity: 1;
     }
-}
+}*/
 
 a.nav-link {
     font-size: 20px;
